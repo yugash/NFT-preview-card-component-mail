@@ -1,0 +1,101 @@
+
+body{
+  background-color: HSL(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+}
+
+.attribution a {
+  color: HSL(228, 45%, 44%);
+}
+
+.avatar-div{
+  font-weight: 300;
+  padding-top: 1rem;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.avatar-div img{
+  width: 4rem;
+  height: auto;
+  padding-right: 1rem;
+}
+
+.avatar-div .white{
+  padding-left: 0.5rem;
+}
+
+.container{
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 1.7rem;
+  padding: 1rem;
+}
+
+.discription{
+  font-size: 1.2rem;
+}
+
+.heading{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.icon-div{
+  font-size: 1rem;
+  font-weight: 400;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-div img{
+  margin-right: 0.5rem;
+}
+
+.icon-div p:first-child{
+
+  color: hsl(178, 100%, 50%);
+}
+
+.main-image{
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.soft-blue{
+  color: hsl(215, 51%, 70%);
+}
+
+.white{
+  color: hsl(0, 0%, 100%);
+}
+
+@media (max-width: 700px) {
+    .container{
+      width: 300px;
+      height: auto;
+    }
+}
